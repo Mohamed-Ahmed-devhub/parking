@@ -345,41 +345,13 @@ input:hover {
 
 
 
-@media screen and (max-width: 786px) {
-    html, body {
-        overflow-x: hidden;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    * {
-        box-sizing: border-box !important;
-    }
-
-    img {
-        max-width: 100% !important;
-        height: auto !important;
-    }
-
-    div, section, table, header, footer, .container {
-        max-width: 100% !important;
-        width: auto !important;
-        float: none !important;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-    }
-
-    h1, h2, h3 {
-        word-wrap: break-word;
-        font-size: 1.5rem !important;
-    }
+html, body {
+    min-width: 1200px; 
+    overflow-x: auto;
 }
 
-@media screen and (max-width: 576px) {
-    body {
-        background-color: brown;
-    }
+img { 
+    max-width: none !important;
 }
 
 
